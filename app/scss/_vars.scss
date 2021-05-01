@@ -1,0 +1,31 @@
+$blu: #7cbcf3;
+$bl: #000;
+$wh: #fff;
+$btn: #fa9300;
+
+
+%title-font {
+  font-family: 'Lifehack Sans', sans-serif;
+  font-weight: 700;
+  font-size: 69px;
+}
+
+%main-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+%nav-font {
+  font-family: 'Museo Sans', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+@function max($numbers...) {
+ @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+ @return m#{i}n(#{$numbers});
+}

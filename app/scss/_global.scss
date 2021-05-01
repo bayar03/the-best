@@ -1,0 +1,51 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+  @extend %main-font;
+  color: $bl;
+  overflow-x: hidden;
+}
+
+button,
+input{
+  outline: none;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  @extend %title-font;
+}
+
+.slick-dots li button {
+    z-index: 5;
+  }
+
+
+// .info-email {
+//   font-weight: 600;
+//   font-size: 14px;
+//   color: $title;
+//   margin-bottom: 22px;
+//   padding-left: 30px;
+//   display: inline-block;
+//   position: relative;
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     background-image: url(../images/email.svg);
+//     background-repeat: no-repeat;
+//     left: 0;
+//     top: 10px;
+//     width: 16px;
+//     height: 12px;
+//   }
+// }
